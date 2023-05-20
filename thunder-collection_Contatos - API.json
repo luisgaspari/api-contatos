@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Contatos - API",
+    "dateExported": "2023-05-12T17:42:31.634Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c7506ea7-6737-4305-a7fc-98ad5c9a1516",
+            "colId": "c5b66585-0b02-4d0c-8ade-bc0695c9f903",
+            "containerId": "",
+            "name": "Buscar contato",
+            "url": "http://localhost:3000/contatos/1",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-05-12T17:41:54.377Z",
+            "modified": "2023-05-12T17:41:54.377Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f0eee9c5-01b6-4a26-bf24-f118c5c71f2c",
+            "colId": "c5b66585-0b02-4d0c-8ade-bc0695c9f903",
+            "containerId": "",
+            "name": "Deletar contato",
+            "url": "http://localhost:3000/contatos/1",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2023-05-12T17:42:05.206Z",
+            "modified": "2023-05-12T17:42:05.206Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "15e3e32d-0134-4745-a66b-5348acb28d0e",
+            "colId": "c5b66585-0b02-4d0c-8ade-bc0695c9f903",
+            "containerId": "",
+            "name": "Cadastrar contato",
+            "url": "http://localhost:3000/contatos",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-05-12T17:42:12.300Z",
+            "modified": "2023-05-12T17:42:12.300Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\":\"Felipe\",\n  \"email\": \"felipe@felipe.com\",\n  \"telefone\": \"123456789\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "45ed9aff-513d-40fc-bc73-f7e7df139dd3",
+            "colId": "c5b66585-0b02-4d0c-8ade-bc0695c9f903",
+            "containerId": "",
+            "name": "Atualizar contato",
+            "url": "http://localhost:3000/contatos/1",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-05-12T17:42:18.930Z",
+            "modified": "2023-05-12T17:42:18.930Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\":\"Felipe\",\n  \"email\": \"felipe@felipe.com\",\n  \"telefone\": \"123456789\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "240d6408-5fdb-4515-95df-79cd206dca21",
+            "colId": "c5b66585-0b02-4d0c-8ade-bc0695c9f903",
+            "containerId": "",
+            "name": "Listar contatos",
+            "url": "http://localhost:3000/contatos",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-05-12T17:42:24.111Z",
+            "modified": "2023-05-12T17:42:24.111Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
